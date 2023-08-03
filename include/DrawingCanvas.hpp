@@ -12,7 +12,7 @@ public:
   virtual ~DrawingCanvas() noexcept {}
   
   void ShowExportDialog();
-  void SetView(DrawingView* view);
+  // void SetView(DrawingView* view);
 
 private:
   void OnPaint(wxPaintEvent&);
