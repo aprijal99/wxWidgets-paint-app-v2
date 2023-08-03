@@ -37,11 +37,11 @@ void DrawingCanvas::ShowExportDialog()
   }
 }
 
-void DrawingCanvas::SetView(DrawingView* view)
-{
-  this->view = view;
-  Refresh();
-}
+// void DrawingCanvas::SetView(DrawingView* view)
+// {
+//   this->view = view;
+//   Refresh();
+// }
 
 void DrawingCanvas::OnPaint(wxPaintEvent&)
 {

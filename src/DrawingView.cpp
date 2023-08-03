@@ -2,7 +2,7 @@
 #include <memory>
 #include "DrawingView.hpp"
 #include "App.hpp"
-#include "DrawingCanvas.hpp"
+// #include "DrawingCanvas.hpp"
 
 wxIMPLEMENT_DYNAMIC_CLASS(DrawingView, wxView);
 
